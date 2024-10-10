@@ -18,7 +18,7 @@ public class CreateProjectTest {
                 .basic("api2024@2024.com","12345")
                 .body("{\n" +
                         "   \"Content\":\"WendyRESTASSURED\",\n" +
-                        "   \"Icon\":6\n" +
+                        "   \"Icon\":6\" +
                         "}")
                 .log().all()
                 .when()
